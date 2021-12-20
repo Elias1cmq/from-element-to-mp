@@ -1,0 +1,22 @@
+<html>
+    <body bgcolor=#a3cfc6>
+
+        <center>
+
+        <h1> Extrusion Alloy Mechanical Properties Prediction </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Heat treatment time at 180 °C (4 to 32 hours) :  <input type="text", name='a', placeholder="Input 1"> <br><br>
+            % Si (0.6 to 1.3 %) :  <input type="text", name='b', placeholder="Input 2"> <br><br>
+            % Cu (0.4 to 0.85 %) :  <input type="text", name='c', placeholder="Input 3"> <br><br>
+            % Mn (0.1 to 0.5 %) :  <input type="text", name='d', placeholder="Input 4"> <br><br>
+            % Mg (0.7 to 1.2 %) :  <input type="text", name='e', placeholder="Input 5"> <br><br>
+            % Cr (0 to 0.2 %) :  <input type="text", name='f', placeholder="Input 6"> <br><br>
+            % Zr (0 to 0.2 %) : <input type="text", name='g', placeholder="Input 7"> <br><br><br></b>
+            <input type="submit" , value='Predict Mechanical Properties' >
+        </form>
+
+        </center>
+
+    </body>
+</html>
