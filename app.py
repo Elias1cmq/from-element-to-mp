@@ -3,13 +3,9 @@ import pickle
 import numpy as np
 import pandas as pd
 
-df = pd.read_excel('FullMatrixAllAlloy.xlsx', index_col='Alloy')
-
 model = pickle.load(open('model.pkl', 'rb'))
 
 app = Flask(__name__)
-
-
 
 @app.route('/')
 def main():
